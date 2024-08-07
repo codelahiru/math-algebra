@@ -8,5 +8,11 @@ x, y = symbols('x y')
 expr = x + 2*y
 print(expr)
 
+x, y = symbols('x y')
+expr = (x + 2*y)*y
+print(expr)
+
+
+
 
 
