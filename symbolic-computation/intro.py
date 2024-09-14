@@ -25,3 +25,9 @@ print(k3)
 
 k4 = Matrix([[1, 2], [2, 2]]).eigenvals()
 print(k4)
+
+k5 = besselj(nu, z).rewrite(jn)
+print(k5)
+
+k6 = latex(Integral(cos(x)**2, (x, 0, pi)))
+print(k6)
