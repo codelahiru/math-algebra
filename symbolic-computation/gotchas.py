@@ -13,3 +13,13 @@ expr = x + 1
 x = 2
 print(expr)
 
+x2 = symbols('x2')
+expr = x2 + 1
+x2 = 2
+print(expr)
+
+x + 1 == 4
+
+x3 = Eq(x + 1, 4)
+print(x3)
+
