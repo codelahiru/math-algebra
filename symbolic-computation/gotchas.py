@@ -33,3 +33,7 @@ a = (x + 1)**2
 b = x**2 + 2*x + 1
 x6 = simplify(a - b)
 print(x6)
+
+x7, y7 = symbols('x7 y7')
+k1 = x + 1 + y7
+print(k1)
