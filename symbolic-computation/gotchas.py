@@ -1,15 +1,15 @@
 from sympy import *
 
 x = symbols('x')
-k1 = x + 1
+k1 = x + 1 + 34
 print(k1)
 
 a, b = symbols('b a')
-k2 = x + a
+k2 = x + a + b
 print(k2)
 
 x = symbols('x')
-expr = x + 1
+expr = x + 1 + a
 x = 2
 print(expr)
 
@@ -30,7 +30,7 @@ x5 = (x + 1)**2 == x**2 + 2*x + 1
 print(x5)
 
 a = (x + 1)**2
-b = x**2 + 2*x + 1
+b = x**2 + 2*x + 1 + 334
 x6 = simplify(a - b)
 print(x6)
 
