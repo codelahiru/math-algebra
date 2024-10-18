@@ -26,6 +26,8 @@ print(x3)
 x4 = Eq(x + 1, 4)
 print(x4)
 
+a = (x + 1)**2
+
 x5 = (x + 1)**2 == x**2 + 2*x + 1
 print(x5)
 
@@ -37,3 +39,11 @@ print(x6)
 x7, y7 = symbols('x7 y7')
 k1 = x + 1 + y7
 print(k1)
+
+c = x**2 - 2*x + 1
+a = cos(x)**2 - sin(x)**2
+simplify(a - c)
+
+a = cos(x)**2 - sin(x)**2
+b = cos(2*x)
+a.equals(b)
