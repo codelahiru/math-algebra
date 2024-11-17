@@ -47,3 +47,8 @@ simplify(a - c)
 a = cos(x)**2 - sin(x)**2
 b = cos(2*x)
 a.equals(b)
+
+type(Integer(1) + 1)
+
+k2 = Integer(1)/Integer(3)
+print(k2)
