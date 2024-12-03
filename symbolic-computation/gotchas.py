@@ -52,3 +52,8 @@ type(Integer(1) + 1)
 
 k2 = Integer(1)/Integer(3)
 print(k2)
+
+x, y, z = symbols('x y z')
+init_printing(use_unicode=True)
+d0 = diff(cos(x), x)
+print(d0)
