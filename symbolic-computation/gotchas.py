@@ -57,3 +57,9 @@ x, y, z = symbols('x y z')
 init_printing(use_unicode=True)
 d0 = diff(cos(x), x)
 print(d0)
+
+d1 = diff(exp(x**2), x)
+print(d1)
+
+d2 = diff(x**4, x, x, x)
+print(d2)
