@@ -34,13 +34,14 @@ print(x5)
 a = (x + 1)**2
 b = x**2 + 2*x + 1 + 334
 x6 = simplify(a - b)
-print(x6)
+x8 = simplify(a + b)
+print(x6, x8)
 
 x7, y7 = symbols('x7 y7')
 k1 = x + 1 + y7
 print(k1)
 
-c = x**2 - 2*x + 1
+c = x**2 - 2*x + 1 + 5
 a = cos(x)**2 - sin(x)**2
 simplify(a - c)
 
@@ -57,3 +58,9 @@ x, y, z = symbols('x y z')
 init_printing(use_unicode=True)
 d0 = diff(cos(x), x)
 print(d0)
+
+d1 = diff(exp(x**2), x)
+print(d1)
+
+d2 = diff(x**4, x, x, x)
+print(d2)
