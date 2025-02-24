@@ -35,7 +35,8 @@ a = (x + 1)**2
 b = x**2 + 2*x + 1 + 334
 x6 = simplify(a - b)
 x8 = simplify(a + b)
-print(x6, x8)
+x9 = simplify(a + b^2 - a^3)
+print(x6, x8, x9)
 
 x7, y7 = symbols('x7 y7')
 k1 = x + 1 + y7
